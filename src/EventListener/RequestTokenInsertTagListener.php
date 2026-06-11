@@ -14,7 +14,10 @@ class RequestTokenInsertTagListener
 
     public function __invoke(string $tag): string|false
     {
-        if ($tag === 'request_token') {
+        // Strip any modifiers (e.g. |attr) before comparing
+        $tagName = explode('|', $tag)[0];
+
+        if ($tagName === 'request_token') {
             return $this->csrfTokenManager->getDefaultTokenValue();
         }
 
