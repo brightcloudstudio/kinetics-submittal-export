@@ -15,7 +15,7 @@ A Contao 5 bundle for the Kinetics Noise Control submittal export feature.
 ## Installation
 
 ```bash
-composer require bright-cloud-studio/kinetics-submittal-export
+composer require brightcloudstudio/kinetics-submittal-export
 ```
 
 ## Usage

@@ -1,5 +1,5 @@
 {
-    "name": "bright-cloud-studio/kinetics-submittal-export",
+    "name": "brightcloudstudio/kinetics-submittal-export",
     "description": "Kinetics submittal export module for Contao 5",
     "type": "contao-bundle",
     "license": "LGPL-3.0-or-later",
